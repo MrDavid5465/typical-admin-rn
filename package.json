@@ -1,0 +1,16 @@
+{
+  "name": "typical-admin-rn",
+  "version": "0.1.0",
+  "description": "The typical-admin pattern for React Native: generated CRUD panels from one record-type description, over an in-memory document saved in one atomic change. Drawn by the app's skin; pairs with denim-rn.",
+  "license": "MIT",
+  "author": "MrDavid5465",
+  "repository": { "type": "git", "url": "https://github.com/MrDavid5465/typical-admin-rn" },
+  "main": "./index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-native": ">=0.80"
+  }
+}
